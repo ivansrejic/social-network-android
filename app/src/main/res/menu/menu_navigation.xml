@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:textColor="@color/white"
+        />
+    <item android:id="@+id/nav_feed"
+        android:title="Feed"
+        android:textColor="@color/white"
+        />
+    <item
+        android:id="@+id/logoutButtonMenu"
+        android:title="Log out"
+        android:textColor="@color/white"
+        />
+    <item
+        android:id="@+id/addPostButton"
+        android:title="Add post"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_addpost" />
+
+</menu>
